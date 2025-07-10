@@ -9,6 +9,10 @@ import Dashboard from "./components/Dashboard";
 import LostFound from "./components/LostFound";
 import Events from "./components/Events";
 import NotFound from "./pages/NotFound";
+import Queue from "./components/Queue";
+import Complaints from "./components/Complaints"
+import ContactsPage from "./components/Contacts";
+import CampusMapPage from "./components/Map";
 
 const queryClient = new QueryClient();
 
@@ -23,10 +27,10 @@ const App = () => (
             <Route path="/" element={<Dashboard />} />
             <Route path="/lost-found" element={<LostFound />} />
             <Route path="/events" element={<Events />} />
-            <Route path="/queues" element={<div className="p-8"><h1 className="text-2xl">Queues - Coming Soon</h1></div>} />
-            <Route path="/complaints" element={<div className="p-8"><h1 className="text-2xl">Complaints - Coming Soon</h1></div>} />
-            <Route path="/contacts" element={<div className="p-8"><h1 className="text-2xl">Contacts - Coming Soon</h1></div>} />
-            <Route path="/map" element={<div className="p-8"><h1 className="text-2xl">Campus Map - Coming Soon</h1></div>} />
+            <Route path="/queues" element={<Queue/>} />
+            <Route path="/complaints" element={ <Complaints/> } />
+            <Route path="/contacts" element={<ContactsPage/>} />
+            <Route path="/map" element={ <CampusMapPage/> } />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>

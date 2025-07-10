@@ -1,3 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-bounce-slow {
+    animation: bounce 2s infinite;
+  }
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
