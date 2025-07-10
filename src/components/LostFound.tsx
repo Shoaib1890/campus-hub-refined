@@ -37,7 +37,7 @@ const LostFound = () => {
       timeFound: "2 hours ago",
       reportedBy: "Sarah M.",
       description: "Found near the study desks, has a clear case with university sticker",
-      image: "/public/Lostandfound/iphone.jpg",
+      image: "/Lostandfound/iphone.jpg",
       status: "available",
       views: 23,
       priority: "high"
@@ -50,7 +50,7 @@ const LostFound = () => {
       timeFound: "5 hours ago",
       reportedBy: "Mike K.",
       description: "University logo on front, left in cafeteria booth",
-      image: "/public/Lostandfound/hoodie.jpg",
+      image: "/Lostandfound/hoodie.jpg",
       status: "available",
       views: 12,
       priority: "medium"
@@ -63,7 +63,7 @@ const LostFound = () => {
       timeFound: "1 day ago",
       reportedBy: "Emma R.",
       description: "Highlighted pages, name written inside cover",
-      image: "/public/Lostandfound/Calculus.jpg",
+      image: "/Lostandfound/Calculus.jpg",
       status: "claimed",
       views: 45,
       priority: "low"
@@ -76,7 +76,7 @@ const LostFound = () => {
       timeFound: "3 hours ago",
       reportedBy: "Aman V.",
       description: "Contains notebooks, a water bottle, and a pencil case",
-      image: "/public/Lostandfound/Bag.jpg",
+      image: "/Lostandfound/Bag.jpg",
       status: "available",
       views: 18,
       priority: "high"
@@ -89,7 +89,7 @@ const LostFound = () => {
       timeFound: "4 hours ago",
       reportedBy: "Anjali S.",
       description: "Blue lanyard, visible name tag",
-      image: "/public/Lostandfound/IDcard.jpg",
+      image: "/Lostandfound/IDcard.jpg",
       status: "available",
       views: 8,
       priority: "high"
@@ -102,7 +102,7 @@ const LostFound = () => {
       timeFound: "30 minutes ago",
       reportedBy: "Deepak T.",
       description: "Black color, has a sticker with name 'Ravi'",
-      image: "/public/Lostandfound/calculator.jpg",
+      image: "/Lostandfound/calculator.jpg",
       status: "available",
       views: 5,
       priority: "medium"
