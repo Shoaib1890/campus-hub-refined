@@ -1,7 +1,7 @@
 # 🎓 Campus Hub
 
 A modern student community app built for the IIITDM Technical UI/UX Hackathon.
-**Live Link : https://campus-hub-refined.vercel.app/
+Live Link : https://campus-hub-refined.vercel.app/
 
 ## ✨ Features
 
